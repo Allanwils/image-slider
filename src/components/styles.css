@@ -1,0 +1,49 @@
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 600px; 
+    margin: 0 auto;
+  }
+  
+  .current-image {
+    width: 100%;
+    height: auto;
+    max-height: 400px; 
+    object-fit: cover;
+  }
+  
+  .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem; 
+    cursor: pointer;
+  }
+  
+  .arrow-left {
+    left: 10px;
+  }
+  
+  .arrow-right {
+    right: 10px;
+  }
+  
+  .circle-indicators {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .circle-indicator {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .circle-indicator.active {
+    background-color: #333;
+  }
+  
