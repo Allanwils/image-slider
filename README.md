@@ -1,4 +1,4 @@
-# React + Vite
+# Image-Slider
 
 This is a basic images slider application. It has supporting arrows for left and right direction
 
